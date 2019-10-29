@@ -1,0 +1,81 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #960030;
+}
+.box
+{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 150px;
+}
+.box .face 
+{
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    font-size: 3em;
+    text-align: center;
+    line-height: 100px;
+    overflow: hidden;
+}
+.box .face span
+{
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: .5s;
+}
+.box .face.face1 
+{
+    background: #d80045;
+    color: #ffffff;
+    transform-origin: left;
+    left: 0;
+    transform: perspective(800px) rotateY(-64deg);
+}
+.box .face.face2 
+{
+    background: #f1004d;
+    color: #ffffff;
+    transform-origin: right;
+    right: 0;
+    transform: perspective(800px) rotateY(64deg);
+}
+.box .face.face1 span
+{
+    position: absolute;
+    animation: animation1 15s linear infinite;
+}
+.box .face.face2 span
+{
+    position: absolute;
+    animation: animation2 15s linear infinite;
+}
+@keyframes animation1
+{
+    0%
+    {
+       left: 200%;
+    }
+    100%
+    {
+        left: -100%;
+    }
+}
+@keyframes animation2
+{
+    0%
+    {
+       left: 100%;
+    }
+    100%
+    {
+        left: -200%;
+    }
+}

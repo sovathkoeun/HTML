@@ -1,0 +1,13 @@
+.container{
+    width: 100%;
+    display:flex;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.media-box {
+    width: 23%;
+    margin-left: 10px;
+}
+audio {
+    width: 90%;
+}

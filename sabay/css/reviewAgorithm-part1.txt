@@ -1,0 +1,99 @@
+---------------------------------------------------------------------------
+Algorithm for failed students
+- variable 
+- if 
+- if - else
+- if - else if - else
+- while - loop
+- for - loop
+- convert while -> for loop / for -> while loop
+- loop + if else
+- array
+- max - min, even - odd,
+------------------------------------------------------------------------------
+ rule of algorithm
+1. when we start something we must be end it.
+ example:
+ Begin -> End
+ for -> next
+ if -> endif
+ while -> endwhile
+ ....
+ 2. We must be declare variable before we use it.
+ example:
+ number a
+ a <- 10
+
+ string firstname
+ firstname <- "Bopha"
+---------------------------------------------------------------------------
+if -> condition
+---------------------------------------------------------------------------
+Begin
+  number number1 <- 11
+  number number2 <- 19
+  if(number1 < number2) then // 11 < 19 
+  	 output(number1) -> 11
+  else 
+  	output(number2)
+  endif
+  output(number1+number2) -> 30
+End
+=======================================
+step   number1     number2    output
+1       11                      ----
+2       11         19           ----
+3       11        19        11 < 19 [true]: 11
+4       11        19         11+19 = 30
+---------------------------------------
+Begin
+	number a
+	number b
+	number c
+	a <- 4   // 4
+	b <- a + 1  // 5
+	c = a + b  // 9
+	output(c) //output-> 9
+	if(a > b) then // 4 > 5
+	   output(a) [false]
+	else 
+	   output(b) [true] //output -> 5
+	endif
+	output(c*a+b) // 9*4 + 5 // output-> 41
+End
+-----------------------------------------
+Begin
+	number a 
+	number b
+	number c
+	number d
+	a <- 3  // 3
+	b <- a*2  // 6
+	c <- b+1 // 7
+	d <- a + b + c // 16
+	output(d*2+a) // output-> 35
+	if(a<b) then // 3 < 6
+	   output(c) [true] -> 7
+	else if(b < c) then  // 6 < 7
+	  output(d) true // 16
+	else 
+	  output(a+b)
+	endif
+	output(a+b*c+d-1) //  6*7 + 18 = 60
+End
+---------------------------------------------------------
+Begin
+	number i
+	for i = 0 To 5 
+		output(i)
+	Next
+End
+------------- change while -------------------------------
+Begin
+	number i
+	i <- 0
+	while(i <= 5)
+		 output(i)
+		 i = i + 1
+	 endwhile
+End

@@ -1,0 +1,7 @@
+[GENERAL]
+
+[DAT]
+PATH = FILES.dat
+$A_FILE = U24
+PAGESIZE = 256
+

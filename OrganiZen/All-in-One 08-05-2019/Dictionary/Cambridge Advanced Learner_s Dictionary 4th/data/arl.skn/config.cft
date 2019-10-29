@@ -1,0 +1,48 @@
+[GENERAL]
+
+[DAT]
+PATH = arl.dat
+$display_text = DATA
+$display_text,OFFSET = U24
+$id = DATA
+$id,OFFSET = U24
+$guid = DATA
+$guid,OFFSET = U24
+$index = DATA
+$index,OFFSET = U24
+$display = DATA
+$display,OFFSET = ULONG
+$class = UBYTE
+$a_id = U24
+$hash = DATA
+$hash,OFFSET = U24
+PAGESIZE = 256
+
+[$display_text]
+PATH = display_text.tda
+COMPRESSION = ZIP
+CATALOG = display_text.tda.tdz
+
+[$id]
+PATH = id.tda
+
+[$guid]
+PATH = guid.tda
+COMPRESSION = ZIP
+CATALOG = guid.tda.tdz
+
+[$index]
+PATH = index.tda
+COMPRESSION = ZIP
+CATALOG = index.tda.tdz
+
+[$display]
+PATH = display.tda
+COMPRESSION = ZIP
+CATALOG = display.tda.tdz
+
+[$hash]
+PATH = hash.tda
+COMPRESSION = ZIP
+CATALOG = hash.tda.tdz
+

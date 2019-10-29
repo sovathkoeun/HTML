@@ -1,0 +1,26 @@
+body {
+	background:#eee;
+}
+table{
+	width:100%;
+	border-collapse:collapse;
+	transition: 3s;
+}
+th,td {
+	border-bottom:1px solid purple;
+	padding:5px;
+}
+thead {
+	background: orange;
+}
+/* tr:hover {
+	background:purple;
+	collor:#fff;
+}
+table:hover {
+	width: 40%;
+	transition: 3s;
+} */
+tr:nth-child(even) {
+	background:teal;
+}

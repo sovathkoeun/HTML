@@ -1,0 +1,7 @@
+[GENERAL]
+
+[DAT]
+PATH = DIRS.dat
+$A_DIRS = UBYTE
+PAGESIZE = 256
+

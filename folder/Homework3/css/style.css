@@ -1,0 +1,52 @@
+body {
+	margin:0px;
+	padding:0px;
+}
+ul {
+	margin:0px;
+	background:linear-gradient(to left,orange,teal);
+    list-style-type:none;
+	overflow: hidden;
+}
+
+li  {
+	float:left;
+}
+li a{
+	padding:15px 16px;
+	font-family:arial;
+	color: white;
+	display:inline-block;
+	text-decoration:none;
+}li a:focus {
+	background:linear-gradient(to left,orange,teal);
+}
+
+table {
+	width: 80%;
+	border-collapse:collapse;
+	margin:0 auto;
+	margin-top:115px;
+}
+
+th{
+	border: 0.6px solid white;
+	padding:8px;
+	color:white;
+}
+
+td{
+	padding: 10px;
+	border: 0.6px solid;
+}
+
+tr:nth-child(3){
+	background:linear-gradient(to right,orange,teal);
+}
+thead{
+	background:linear-gradient(to left,orange,teal);
+}
+
+colgroup col:nth-child(1){
+	background:linear-gradient(to top,orange,teal);
+}

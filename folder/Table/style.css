@@ -1,0 +1,54 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+ul{
+	margin:0px;
+	background:linear-gradient(to left,orange,teal);
+	list-style-type:none;
+	overflow:hidden;
+	
+}
+li a{
+	text-decoration:none;
+	font-family:arial;
+	padding:15px 16px;
+	display:inline-block;
+	color:white;
+}
+li{
+	float:left;
+}
+li a:focus{
+	background:linear-gradient(to right,teal,orange);
+}
+
+table{
+	width:90%;
+	margin:0 auto;
+	margin-top:105px;
+	border-collapse:collapse;
+	border:10px;
+}
+th{
+	border: 0.5px solid white;
+	padding: 10px;
+	color:white;
+}
+td{
+	border: 0.5px solid;
+	padding: 10px;
+}
+tr:nth-child(3){
+	background:linear-gradient(to right,orange,teal);
+}
+
+colgroup col:nth-child(1){
+	background:linear-gradient(to bottom,teal,orange);
+}
+thead{
+	background:linear-gradient(to right,teal,orange);
+}
+
+			
+	

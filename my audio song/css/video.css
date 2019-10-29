@@ -1,0 +1,23 @@
+
+.containmp4{
+    width: 100%;
+    margin-top: 50px;
+}
+.media-box4 {
+    width: 50%;
+    margin-left: 10px;
+    margin: 0 auto;
+}
+video {
+    width: 100%;
+}
+.containt{
+    width: 90%;
+    display:flex;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.media-boxa4 {
+    width: 23%;
+    margin-left: 10px;
+}

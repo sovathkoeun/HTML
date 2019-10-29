@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../4.jpg);
+    background-size: cover;
+}
+ul{
+    margin: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background: rgb(240, 8, 209);
+
+}
+li{
+    float: left;
+}
+li a{
+    padding: 18px 19px;
+    display: block;
+    text-decoration: none;
+    font-size: 23px;
+    color:white;
+}
+li a:hover{
+    background: rgb(58, 238, 22);
+}
+li a:focus{
+    background: orangered
+}
+ul :nth-child(4){
+    margin-left: 50%;
+}
+.container{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    margin:0 auto;
+    margin-top: 50px;
+}
+.col-3{
+    width: 40%;
+	height: 300px;
+    margin-left: 20px;
+    margin-top: 40px;
+    border-radius: 50%;
+    background: url(../12.jpg);
+    background-size: cover;
+
+}
+.col-4{
+    width: 23%;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 40px;
+    border-radius: 50%;
+    background: url(../4.jpg);
+    background-size: cover;
+}
+.col-6{
+    width: 23%;
+    height: 300px;
+    margin-left: 40px;
+    margin-top: 60px;
+    border-radius: 50%;
+    background: url(../4.jpeg);
+    background-size: cover;
+}
+.col-12{
+    width: 23%;
+    height: 300px;
+    margin-left: 40px;
+    margin-top: 60px;
+    border-radius: 50%;
+    background: url(../4.jpeg);
+    background-size: cover; 
+}
+.contain23{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;    
+}
+td, th {
+    border: 1px solid;
+    padding: 10px;
+    color: rgb(136, 221, 94);
+}
+th,tr:nth-child(0){
+    background: rgb(247, 7, 155);
+    color: aliceblue;
+}
+
+
+
+
+.form-container {
+	width:400px;
+	padding:10px;
+	background:teal;
+	margin:0 auto;
+    margin-top:100px;
+    margin-left: 2%;
+	
+}
+input {
+	width:40%;
+	padding:8px;
+	margin-bottom:10px;
+	border:none;
+	outline:none;
+	border-radius: 40px;
+    margin-left: 10px;
+    text-align: center;
+	
+}
+input [type="text"] {
+    margin-top: 20px;
+    margin-left: 20%;;
+}
+button {
+	width: 100px;
+	border: none;
+	padding: 9px;
+	background: orange;
+	border-radius: 45px;
+	margin-left: 12px;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+}
+placeholder {
+	padding-left: 13px;
+	font-size: 13px;
+	 opacity: 0.7;
+}
+button {
+	width: 14%;
+	transition:4s;
+}

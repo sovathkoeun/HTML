@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    font-family: Battambang;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.col-12 {
+    background: #fff;
+    width: 50vw;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 0 25px rgba(0,0,0,0.25);
+}
+audio {
+    width: 88%;
+    height: 40px;
+    outline: none;
+    margin-top: 10px;
+}
+marquee {
+    margin-top: 50px;
+}
+.titles h1 {
+    margin-top: 60px;
+    font-size: 3em;
+    opacity: 0.5;
+    font-family: sans-serif;
+}
+h1::first-letter {
+    color:red;
+}
